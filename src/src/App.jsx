@@ -279,9 +279,8 @@ export default function App() {
         <div className="flex flex-1">
           {/* Sidebar */}
           <aside
-            className={`bg-dark text-white w-64 fixed md:relative h-full md:h-auto z-10 transform md:transform-none transition-transform duration-300 ${
-              isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-            } md:translate-x-0`}
+            className={`bg-dark text-white w-64 fixed md:relative h-full md:h-auto z-10 transform md:transform-none transition-transform duration-300 ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+              } md:translate-x-0`}
           >
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-6">Navigation</h2>
@@ -347,34 +346,26 @@ export default function App() {
                 <Route
                   path="/"
                   element={
-                    <Dashboard members={members} transactions={transactions} />
+                    <Dashboard />
                   }
                 />
                 <Route
                   path="/dashboard"
                   element={
-                    <Dashboard members={members} transactions={transactions} />
+                    <Dashboard />
                   }
                 />
                 <Route path="/books" element={<BookManagement />} />
                 <Route
                   path="/members"
                   element={
-                    <MemberManagement
-                      members={members}
-                      setMembers={setMembers}
-                    />
+                    <MemberManagement />
                   }
                 />
                 <Route
                   path="/borrow"
                   element={
-                    <BorrowReturn
-                      books={books}
-                      members={members}
-                      transactions={transactions}
-                      setTransactions={setTransactions}
-                    />
+                    <BorrowReturn />
                   }
                 />
                 <Route
