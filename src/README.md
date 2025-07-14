@@ -63,20 +63,7 @@ lms-app/
 │   │   ├── NotificationsIcon.jsx
 │   │   ├── OverdueFines.jsx
 ```
----
 
-## UI Section 
-![Dashboard](/assets/dashboard.png)
-
-![Book Management](/assets/book_management.png)
-
-![Member Management](/assets/member_management.png)
-
-![Transaction Management](/assets/transaction.png)
-
-![Notification Management](/assets/notification.png)
-
----
 ## Installation
 
 1. Clone the repository:
@@ -128,4 +115,4 @@ You can customize the application by modifying the components in the `src/compon
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
